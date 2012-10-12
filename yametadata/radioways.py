@@ -23,6 +23,11 @@ def find_metadata(radio_id):
         except:
             content = r.content
 
+    if content.startswith("<?xml version='1.0' encoding='windows-12'?>"):
+        # special case when encoding is broken
+        left = content[len("<?xml version='1.0' encoding='windows-12?>"):]
+        content = "<?xml version='1.0' encoding='windows-1252'?" + left
+
     try:
         data = xml2dic.as_dict(content)
     except:
