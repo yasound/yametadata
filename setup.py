@@ -16,14 +16,14 @@ packages = [
 ]
 
 setup(
-    name='radioways',
+    name='yametadata',
     version='0.1',
-    description='radioways api',
+    description='yametadata api',
     long_description=open('README.markdown').read() + '\n\n' +
                      open('HISTORY.markdown').read(),
     author='Jérôme Blondon',
     author_email='jerome@yasound.com',
-    url='https://github.com/yasound/radioways',
+    url='https://github.com/yasound/yametadata',
     packages=packages,
     package_data={'': ['LICENSE', 'NOTICE']},
     include_package_data=True,
