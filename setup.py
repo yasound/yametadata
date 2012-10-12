@@ -19,8 +19,8 @@ setup(
     name='yametadata',
     version='0.1',
     description='yametadata api',
-    long_description=open('README.markdown').read() + '\n\n' +
-                     open('HISTORY.markdown').read(),
+    long_description=open('README.md').read() + '\n\n' +
+                     open('HISTORY.md').read(),
     author='Jérôme Blondon',
     author_email='jerome@yasound.com',
     url='https://github.com/yasound/yametadata',
