@@ -48,7 +48,7 @@ def find_metadata():
         large_cover = None
         if cover_file:
             cover = u'%s%s~%s' % (KFM_BASE_COVER, cover_file, KFM_COVER_SIZE_NORMAL)
-            large_cover = u'%s%s~%s' % (KFM_BASE_COVER, cover_file, KFM_COVER_SIZE_NORMAL)
+            large_cover = u'%s%s~%s' % (KFM_BASE_COVER, cover_file, KFM_COVER_SIZE_LARGE)
 
         data = {
             'artist': artist,
