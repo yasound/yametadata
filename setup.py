@@ -9,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-required = ['requests', 'xmltodict']
+required = ['requests', 'xmltodict', 'pyquery']
 
 packages = [
     'yametadata',
