@@ -36,9 +36,47 @@ import requests
 
 HOTMIX_DATA = {
     '80': {
-        'stream': 'http://streamingads.hotmixradio.fm/hotmixradio-80-128.mp3',
         'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradio80s_liveradio.xml'
-    }
+    },
+    '90': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradio90s_liveradio.xml'
+    },
+    'dance': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiodance_liveradio.xml'
+    },
+    'baby': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiobaby_liveradio.xml'
+    },
+    'frenchy': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiofrenchy_liveradio.xml'
+    },
+    'funky': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiofunky_liveradio.xml'
+    },
+    'hiphop': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiohiphop_liveradio.xml'
+    },
+    'hits': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiohits_liveradio.xml'
+    },
+    'hot': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiohot_liveradio.xml'
+    },
+    'lounge': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiolounge_liveradio.xml'
+    },
+    'new': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradionew_liveradio.xml'
+    },
+    'rock': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiorock_liveradio.xml'
+    },
+    'sunny': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiosunny_liveradio.xml'
+    },
+    'vip': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiovip_liveradio.xml'
+    },
 }
 
 
