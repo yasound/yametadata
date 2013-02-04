@@ -65,6 +65,9 @@ HOTMIX_DATA = {
     'lounge': {
         'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiolounge_liveradio.xml'
     },
+    'metal': {
+        'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradiometal_liveradio.xml'
+    },
     'new': {
         'metadata_url': 'http://www.hotmixradio.fr/transfert/hotmixradionew_liveradio.xml'
     },
