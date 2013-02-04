@@ -4,7 +4,6 @@ from pyquery import PyQuery as pq
 
 FRANCE_INTER_URL = 'http://www.franceinter.fr/sites/default/files/rf_player/player-direct.json?_='
 
-
 def find_metadata():
     random = datetime.datetime.now().strftime('%s')
     url = '%s%s' % (FRANCE_INTER_URL, random)

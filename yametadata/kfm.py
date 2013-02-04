@@ -2,7 +2,7 @@ import xmltodict
 import requests
 
 KFM_BASE_COVER = 'http://www.k-fm.com/wp-content/plugins/4ways/_radio/pochettes/'
-KFM_COVER_SIZE_NORMAL = 32
+KFM_COVER_SIZE_NORMAL = 68
 KFM_COVER_SIZE_LARGE = 210
 
 
